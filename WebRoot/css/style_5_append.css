@@ -1,0 +1,102 @@
+* {
+	WORD-WRAP: break-word; WORD-BREAK: break-all
+}
+BODY {
+	BACKGROUND: #fbf4f5 repeat-x; TEXT-ALIGN: center
+}
+.wrap {
+	OVERFLOW: hidden; WIDTH: 922px; BACKGROUND: url(PinkDresser/wrap_shadow.gif) #fff repeat-y 0px 0px; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 35px; MARGIN: 0px auto; PADDING-RIGHT: 35px
+}
+.message {
+	PADDING-BOTTOM: 2em !important; PADDING-TOP: 0px !important; PADDING-LEFT: 0px !important; MARGIN: 3em 10em 5em; PADDING-RIGHT: 0px !important
+}
+.message P {
+	MARGIN: 1em
+}
+#menu LI A {
+	TEXT-DECORATION: none; FLOAT: left; COLOR: ; PADDING-BOTTOM: 3px; PADDING-TOP: 4px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px
+}
+#announcement DIV {
+	BORDER-TOP: #fff 1px solid; HEIGHT: 36px; BORDER-RIGHT: #fff 1px solid; OVERFLOW-Y: hidden; BORDER-BOTTOM: #fff 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; BORDER-LEFT: #fff 1px solid; LINE-HEIGHT: 35px !important; PADDING-RIGHT: 10px
+}
+.pages A {
+	FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 8px; LINE-HEIGHT: 26px; PADDING-RIGHT: 8px
+}
+.pages STRONG {
+	FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 8px; LINE-HEIGHT: 26px; PADDING-RIGHT: 8px
+}
+.pages EM {
+	FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 8px; LINE-HEIGHT: 26px; PADDING-RIGHT: 8px
+}
+.pages KBD {
+	FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 8px; LINE-HEIGHT: 26px; PADDING-RIGHT: 8px
+}
+.legend LABEL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px
+}
+.mainbox TABLE {
+	WIDTH: 99.9%
+}
+#wysiwyg {
+	BACKGROUND: #fff; FONT: 14px/1.6em Arial,Helvetica,sans-serif
+}
+.postform .btns {
+	FONT-FAMILY: Simsun, "Times New Roman"; COLOR: #999; MARGIN-TOP: 0.5em; LINE-HEIGHT: 30px
+}
+#smilieslist H4 {
+	BACKGROUND: #fafafa; BORDER-BOTTOM: #dedede 1px solid; COLOR: #c44d4d; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.postform .special {
+	FONT-WEIGHT: bold; COLOR: #c44d4d
+}
+#postform .special {
+	FONT-WEIGHT: bold; COLOR: #c44d4d
+}
+.mainbox TBODY TH {
+	BORDER-TOP: #cecece 1px solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.mainbox TBODY TD {
+	BORDER-TOP: #cecece 1px solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.forumlist TBODY TH {
+	BORDER-RIGHT: #cecece 1px solid
+}
+.threadlist TBODY TH {
+	BORDER-RIGHT: #cecece 1px solid
+}
+.forumlist TBODY TD.nums {
+	BORDER-RIGHT: #cecece 1px solid
+}
+.threadlist TBODY TD.nums {
+	BORDER-RIGHT: #cecece 1px solid
+}
+.threadlist TBODY TD.author {
+	BORDER-RIGHT: #cecece 1px solid
+}
+.threadlist TBODY TD.folder {
+	BORDER-RIGHT: #cecece 1px solid
+}
+.forumlist TBODY TD {
+	PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #fff 3px solid; PADDING-RIGHT: 5px
+}
+.threadlist TBODY TD {
+	PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #fff 3px solid; PADDING-RIGHT: 5px
+}
+.threadlist TBODY TD.folder {
+	BORDER-LEFT-STYLE: none
+}
+.threadlist TBODY TD.icon {
+	PADDING-LEFT: 5px
+}
+#wysiwyg {
+	BACKGROUND-IMAGE: none
+}
+#footer {
+	BORDER-TOP-STYLE: none; HEIGHT: 137px; WIDTH: 992px; BACKGROUND: url(PinkDresser/footer_shadow.gif) #fff repeat-x 0px 0px; BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 0px; MARGIN: 0px auto; BORDER-LEFT-STYLE: none; PADDING-RIGHT: 0px
+}
+#footer .wrap {
+	HEIGHT: 122px; WIDTH: 942px; BACKGROUND: url(PinkDresser/footer_shadow.gif) no-repeat 0px -137px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px; PADDING-LEFT: 50px; PADDING-RIGHT: 0px
+}
+#footlinks {
+	HEIGHT: 137px; BACKGROUND: url(PinkDresser/footer_shadow.gif) no-repeat 100% -274px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px; PADDING-LEFT: 0px; MARGIN: -15px 0px 0px; PADDING-RIGHT: 50px
+}

@@ -1,0 +1,24 @@
+BODY {
+	BACKGROUND-COLOR: #0976af; MARGIN-TOP: 50px; MARGIN-BOTTOM: 50px
+}
+#l_logo {
+	MARGIN: 0px auto; WIDTH: 568px; HEIGHT: 68px
+}
+#l_cbox {
+	MARGIN: 0px auto; WIDTH: 568px; BACKGROUND: url(../images/login_bg.jpg); HEIGHT: 275px; PADDING-TOP: 45px
+}
+#l_box {
+	MARGIN: 0px auto; WIDTH: 285px; BACKGROUND: url(../images/login_box.jpg); HEIGHT: 200px; PADDING-TOP: 37px
+}
+#l_box TD {
+	COLOR: #fff
+}
+#l_bottom {
+	TEXT-ALIGN: center; LINE-HEIGHT: 34px; MARGIN: 15px auto 0px; WIDTH: 373px; BACKGROUND: url(../images/login_bottom.jpg); HEIGHT: 34px; COLOR: #025e9e
+}
+#l_bottom A {
+	COLOR: #025e9e
+}
+.l_btn {
+	LINE-HEIGHT: 28px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 68px; BACKGROUND: url(../images/login_btn.jpg); BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 28px; COLOR: #fff; BORDER-LEFT-WIDTH: 0px
+}

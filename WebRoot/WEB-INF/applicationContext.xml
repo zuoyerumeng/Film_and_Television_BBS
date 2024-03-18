@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+	<bean id="dataSource"
+		class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName"
+			value="com.mysql.cj.jdbc.Driver"> 
+		</property>
+		<property name="url"
+			value="jdbc:mysql://localhost:3306/db_bbs?useSSL=false&amp;serverTimezone=UTC&amp;characterEncoding=UTF-8"> 
+		</property>
+		<property name="username" value="root"></property>
+		<property name="password" value="jiang620160623"></property>
+	</bean>
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">
+					org.hibernate.dialect.MySQLDialect
+				</prop>
+				<prop key="hibernate.show_sql">true</prop>
+			</props>
+		</property>
+		<property name="mappingResources">
+			<list>
+				<value>com/model/TForums.hbm.xml</value>
+				<value>com/model/TUser.hbm.xml</value>
+				<value>com/model/TThreads.hbm.xml</value>
+				<value>com/model/TTopic.hbm.xml</value></list>
+		</property>
+	</bean>
+	<!-- 后台的登录 -->
+	<bean id="loginService" class="com.service.loginService">
+		<property name="userDAO">
+			<ref bean="userDAO" />
+		</property>	
+	</bean>
+	<bean id="forumsDAO" class="com.dao.TForumsDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="forumsAction" class="com.action.forumsAction" scope="prototype">
+		<property name="forumsDAO">
+			<ref bean="forumsDAO" />
+		</property>		
+	</bean>
+	<bean id="userDAO" class="com.dao.TUserDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="userAction" class="com.action.userAction" scope="prototype">
+		<property name="userDAO">
+			<ref bean="userDAO" />
+		</property>
+	</bean>
+	<bean id="indexAction" class="com.action.indexAction" scope="prototype">
+		<property name="forumsDAO">
+			<ref bean="forumsDAO" />
+		</property>
+	</bean>
+	<bean id="threadsDAO" class="com.dao.TThreadsDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory"></ref>
+		</property>
+	</bean>
+	<bean id="topicDAO" class="com.dao.TTopicDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="topicAction" class="com.action.topicAction" scope="prototype">
+		<property name="forumsDAO">
+			<ref bean="forumsDAO" />
+		</property>
+		<property name="topicDAO">
+			<ref bean="topicDAO" />
+		</property>
+		<property name="threadsDAO">
+			<ref bean="threadsDAO" />
+		</property>
+	</bean>	
+	<bean id="threadAction" class="com.action.threadAction" scope="prototype">
+		<property name="forumsDAO">
+			<ref bean="forumsDAO" />
+		</property>
+		<property name="topicDAO">
+			<ref bean="topicDAO" />
+		</property>
+		<property name="threadsDAO">
+			<ref bean="threadsDAO" />
+		</property>	
+	</bean>
+	</beans>

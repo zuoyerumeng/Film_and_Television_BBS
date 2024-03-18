@@ -1,0 +1,123 @@
+BODY {
+	SCROLLBAR-ARROW-COLOR: #0493da; SCROLLBAR-FACE-COLOR: #ffffff; PADDING-BOTTOM: 0px; LINE-HEIGHT: 150%; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; FONT-FAMILY: "宋体"; BACKGROUND: #ffffff; SCROLLBAR-HIGHLIGHT-COLOR: #add1eb; SCROLLBAR-SHADOW-COLOR: #0493da; FONT-SIZE: 9pt; SCROLLBAR-TRACK-COLOR: #ffffff; TEXT-DECORATION: none; SCROLLBAR-3DLIGHT-COLOR: #ffffff; PADDING-TOP: 0px
+}
+A:link {
+	FONT: 12px 宋体; COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: red; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #428eff; TEXT-DECORATION: underline
+}
+A.Class:link {
+	COLOR: #0000ff
+}
+A.Class:visited {
+	COLOR: #000000
+}
+A.Class:hover {
+	COLOR: #ffff00
+}
+A.Class:active {
+	COLOR: #000000
+}
+TD {
+	FONT-SIZE: 12px
+}
+.button {
+	BACKGROUND-IMAGE: url(images/button_bg.gif); BORDER-BOTTOM: #c8cccb 1px solid; BORDER-LEFT: #c8cccb 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: repeat-x; COLOR: #000002; FONT-SIZE: 12px; BORDER-TOP: #c8cccb 1px solid; MARGIN-RIGHT: 0px; BORDER-RIGHT: #c8cccb 1px solid; PADDING-TOP: 4px
+}
+INPUT {
+	
+}
+INPUT {
+	
+}
+INPUT {
+	
+}
+INPUT {
+	FONT-SIZE: 12px; size: 12px
+}
+TEXTAREA {
+	BORDER-BOTTOM: #dadada 1px solid; BORDER-LEFT: #dadada 1px solid; BACKGROUND-COLOR: #ffffff; BORDER-TOP: #dadada 1px solid; BORDER-RIGHT: #dadada 1px solid
+}
+SELECT {
+	FONT-FAMILY: 宋体; FONT-SIZE: 9pt
+}
+.Melyy_Menuline {
+	WIDTH: 100%; HEIGHT: 20px
+}
+.comtabsl {
+	BORDER-BOTTOM: white 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 0px; BACKGROUND: url(images/tableftF.gif) no-repeat left top; FLOAT: left; FONT-SIZE: 12px; CURSOR: hand; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.comtabl {
+	BORDER-BOTTOM: silver 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 0px; BACKGROUND: url(images/tableftF.gif) no-repeat 0% -42px; FLOAT: left; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.comtabr {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 6px; PADDING-RIGHT: 15px; DISPLAY: block; BACKGROUND: url(images/tabrightF.gif) no-repeat 100% -42px; FLOAT: left; COLOR: #464646; FONT-SIZE: 12px; PADDING-TOP: 5px
+}
+.comtabsr {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 6px; PADDING-RIGHT: 15px; DISPLAY: block; BACKGROUND: url(images/tabrightF.gif) no-repeat right top; FLOAT: left; COLOR: #666; FONT-SIZE: 12px; PADDING-TOP: 5px
+}
+.border {
+	BORDER-BOTTOM: #9ec5f1 1px solid; BORDER-LEFT: #9ec5f1 1px solid; BACKGROUND-COLOR: #d0e1f3; WIDTH: 99%; BORDER-TOP: #9ec5f1 1px solid; BORDER-RIGHT: #9ec5f1 1px solid
+}
+.Navigation {
+	BORDER-BOTTOM: #dadada 1px solid; TEXT-ALIGN: left; BACKGROUND: url(images/Navigation.gif); LETTER-SPACING: 2px; HEIGHT: 25px; COLOR: #ffffff; FONT-SIZE: 12px
+}
+.Navigationtdbg {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BACKGROUND: #f5f9fe; PADDING-TOP: 0px
+}
+.HeadBg {
+	BACKGROUND: url(images/TOPBg.gif); HEIGHT: 60px
+}
+.LogoStyle {
+	WIDTH: 100%; FONT-FAMILY: 华文新魏; COLOR: #ffffff; FONT-SIZE: 18pt; FONT-WEIGHT: bold
+}
+.ManageMainMenu {
+	BACKGROUND: url(images/TopMenuBg.jpg); HEIGHT: 35px; COLOR: #ffffff; FONT-SIZE: 12px
+}
+.TopMenuFont {
+	COLOR: #ffffff; FONT-SIZE: 12px
+}
+.ManageMainBgcolor {
+	BACKGROUND-COLOR: #f5f9fe
+}
+.ManageMainMenuHref {
+	FONT: 12px 宋体; COLOR: #000000; TEXT-DECORATION: none
+}
+.ManageMainMenuHref A:link {
+	FONT: 12px 宋体; COLOR: #000000; TEXT-DECORATION: none
+}
+.ManageMainMenuHref A:visited {
+	FONT: 12px 宋体; COLOR: #000000; TEXT-DECORATION: none
+}
+.ManageMainMenuHref A:active {
+	FONT: 12px 宋体; COLOR: #000000; TEXT-DECORATION: none
+}
+.ManageMainMenuHref A:hover {
+	FONT: 12px 宋体; COLOR: #000000; TEXT-DECORATION: none
+}
+.ManageMainBgcolor {
+	BACKGROUND-COLOR: #f5f9fe
+}
+.topbg {
+	BACKGROUND: url(images/topbg.gif)
+}
+A.topbg:link {
+	COLOR: #000000
+}
+A.topbg:visited {
+	COLOR: #000000
+}
+A.topbg:hover {
+	COLOR: #000000
+}
+A.topbg:active {
+	COLOR: #000000
+}

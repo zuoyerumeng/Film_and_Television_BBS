@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC   
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+     
+     
+<struts>
+    <package name="liu" extends="struts-default">
+        <global-results>
+            <result name="succeed">/common/succeed.jsp</result>
+            <result name="msg">/common/msg.jsp</result>
+        </global-results>
+        
+        <action name="userLogout" class="userAction" method="userLogout">
+        </action>
+        <action name="userReg" class="userAction" method="userReg">
+        </action>
+        <action name="userMana" class="userAction" method="userMana">
+        	<result name="success">/admin/user/userMana.jsp</result>
+        </action>
+        <action name="userDel" class="userAction" method="userDel">
+        </action>
+        
+        <action name="forumsMana" class="forumsAction" method="forumsMana">
+             <result name="success">/admin/forums/forumsList.jsp</result>
+        </action>
+        <action name="toAddForums" class="forumsAction" method="toAdd">
+             <result name="toAdd">/admin/forums/forumsAdd.jsp</result>
+        </action>
+        <action name="forumsAdd" class="forumsAction" method="doAdd">
+        </action>
+        <action name="toEditForums" class="forumsAction" method="toEdit">
+             <result name="toEdit">/admin/forums/forumsEdit.jsp</result>
+        </action>
+        <action name="forumsEdit" class="forumsAction" method="doEdit">
+        </action>
+        <action name="forumsDel" class="forumsAction" method="doDel">
+        </action>
+        
+        <action name="index" class="indexAction" method="index">
+        	<result name="success">/bbs/index.jsp</result>
+        </action>
+        
+        <action name="topicview" class="topicAction" method="topicview">
+        	<result name="success">/bbs/forum/forumdisplay.jsp</result>
+        </action>
+        <action name="topicMana" class="topicAction" method="topicMana">
+        	<result name="success">/admin/topic/topicMana.jsp</result>
+        </action>
+        <action name="topicDel" class="topicAction" method="topicDel">
+        </action>
+        
+        <action name="toAddThread" class="threadAction" method="toAddThread">
+        	<result name="success">/bbs/forum/newthread.jsp</result>
+        </action>
+        <action name="threadAdd" class="threadAction" method="threadAdd">
+        </action>
+        <action name="threadview" class="threadAction" method="threadview">
+        	<result name="success">bbs/forum/viewthread.jsp</result>
+        </action>        
+        <action name="replace" class="threadAction" method="replace">
+        </action>        
+    </package>
+</struts>
